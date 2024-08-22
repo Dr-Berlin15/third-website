@@ -1,74 +1,96 @@
 :root {
-  --color-primary:#2584ff;
-  --color-secondary:#00d9ff;
-  --color-accent:#ff3400;
-  --color-body:#aeabbf;
-  --color-headings:#210e6b;
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-body: #aeabbf;
+  --color-headings: #210e6b;
 }
 /* 62.5% of 16px = 10px */
 html {
   font-size: 62.5%;
 }
 /* Typography */
-body{
-font-family: inter Arial, Helvetica, sans-serif;
-color: var(--color-body);
-line-height: 1.5;
-font-size: 2.4rem;
+body {
+  font-family: inter Arial, Helvetica, sans-serif;
+  color: var(--color-body);
+  line-height: 1.5;
+  font-size: 2.4rem;
 }
 h1,
 h2,
-h3{
-color: var(--color-headings);
+h3 {
+  color: var(--color-headings);
 }
-h1{
+h1 {
   font-size: 7rem;
 }
-h2{
+h2 {
   font-size: 4rem;
 }
-h3{
+h3 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-p{
+p {
   margin-top: 0;
 }
-@media screen and (min-width:1024px) {
-  body{
-  font-size: 1.8rem;
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
   }
-  h1{
+  h1 {
     font-size: 8rem;
   }
-  h2{
-font-size: 4rem;
+  h2 {
+    font-size: 4rem;
   }
-  h3{
-  font-size: 2.4rem;
+  h3 {
+    font-size: 2.4rem;
   }
-  
 }
 /* Links */
-a{
+a {
   text-decoration: none;
 }
-.link-arrow{
+.link-arrow {
   text-transform: uppercase;
   font-size: 2rem;
   color: var(--color-accent);
   font-weight: bold;
 }
-.link-arrow::after{
-  content: '-->';
+.link-arrow::after {
+  content: "-->";
   margin-left: 5px;
   transition: margin-left 0.15s;
 }
-.link-arrow:hover::after{
+.link-arrow:hover::after {
   margin-left: 10px;
 }
 @media screen and (min-width: 1024px) {
-.link-arrow{
-  font-size: 1.5rem;
+  .link-arrow {
+    font-size: 1.5rem;
+  }
 }
+/* Badges */
+.badge {
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+}
+.badge--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.badge--small {
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
+  }
 }
