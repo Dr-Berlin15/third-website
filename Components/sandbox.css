@@ -51,3 +51,70 @@
     height: 5.5rem;
   }
 }
+
+/* =========== */
+/* <section class="block container block--black showcase">
+<header class="block__header">
+  <h2 class="block__heading">User-Friendly Control Panel</h2>
+</header>
+<article class="grid grid--1x2">
+  <img class="showcase__image" src="/Images/ipad.png" alt="" />
+  <div class="showcase__content">
+    <div class="media">
+      <div class="media__image">
+        <svg class="icon icon--primary">
+          <use xlink:href="../Images/sprite.svg#snap"></use>
+        </svg>
+      </div>
+      <div class="media__body">
+        <h3 class="media__title block__heading">
+          Easy Start & Managed Updates
+        </h3>
+        <p>
+          Our cloud plans include easy onboarding for new and existing
+          sites and managed WordPress and WooCommerce auto-updates.
+        </p>
+      </div>
+    </div>
+    <div class="media">
+      <div class="media__image">
+        <svg class="icon icon--primary">
+          <use xlink:href="../Images/sprite.svg#snap"></use>
+        </svg>
+      </div>
+      <div class="media__body">
+        <h3 class="media__title block__heading">
+          Easy Start & Managed Updates
+        </h3>
+        <p>
+          Our cloud plans include easy onboarding for new and existing
+          sites and managed WordPress and WooCommerce auto-updates.
+        </p>
+      </div>
+    </div>
+    <div class="media">
+      <div class="media__image">
+        <svg class="icon icon--primary">
+          <use xlink:href="../Images/sprite.svg#snap"></use>
+        </svg>
+      </div>
+      <div class="media__body">
+        <h3 class="media__title block__heading">
+          Easy Start & Managed Updates
+        </h3>
+        <p>
+          Our cloud plans include easy onboarding for new and existing
+          sites and managed WordPress and WooCommerce auto-updates.
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+</section> */
+.showcase__image {
+  width: 100%;
+}
+
+.showcase__heading {
+  margin-bottom: 7.8rem;
+}
